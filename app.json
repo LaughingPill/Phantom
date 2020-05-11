@@ -1,6 +1,6 @@
 {
-  "name": "IndianBot",
-  "description": "Userbot created by a IndianBhai and join https://t.me/IndianArMyGiveaway for any problems or support",
+  "name": "PhantomBot",
+  "description": "Userbot created by a Levin & lord and join https://t.me/PhantomBots for any problems or support",
   "logo": "https://telegra.ph/file/a79203c2aba1c0a2aeeb7.jpg",
     "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/indianbhaiya/IndianBot/",
+  "repository": "https://github.com/PhantomBot/phantom/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
