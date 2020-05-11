@@ -20,6 +20,7 @@ async def _(event):
    # if input_str == "np":
     await event.edit("np")
     animation_chars = [
+            "Nope",
             "No",
             "Problem",
             "Sar 😇",
