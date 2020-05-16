@@ -40,7 +40,7 @@ async def _(event):
         await event.edit("Reply to a photo to add to my personal sticker pack.")
         return
     reply_message = await event.get_reply_message()
-    sticker_emoji = "🔥"
+    sticker_emoji = "🍑"
     input_str = event.pattern_match.group(1)
     if input_str:
         sticker_emoji = input_str
@@ -50,15 +50,15 @@ async def _(event):
         user.first_name = user.id
     pack = 1
     userid = event.from_id
-    #packname = f"IndiaBhai™keStickers"
+    #packname = f"Sticker World Of LaughingPill"
     #packshortname = f"IndianBot_{userid}_ns"  # format: Uni_Borg_userid
-    if userid == 953414679:
-        packname = f"IndianBhaikeStickers"
-        packshortname = "IndianBhai_ke_locker_me"
+    if userid == 981700948:
+        packname = f"LaughingPillkeStickers"
+        packshortname = "Sticker World of LaughingPill"
     else:
         packname = f"{user.first_name}'s IndianBot Vol.{pack}"
         packshortname = f"IndianBot_{userid}_kang"
-    await event.edit("`Look dat way,it's a gurl!\nMeanwhile, lemme kang this stcker over hehe ヽ༼ ಠ益ಠ ༽ﾉ`")
+    await event.edit("`Look dat way,it's a Netflix Giveaway!!\nMeanwhile lemme kang this sticker over here lol 😆 `")
 
     is_a_s = is_it_animated_sticker(reply_message)
     file_ext_ns_ion = "@IndianArMyGiveaway.png"
