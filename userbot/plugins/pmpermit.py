@@ -13,13 +13,13 @@ PREV_REPLY_MESSAGE = {}
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
-USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](tg://user?id=953414679)\n\n"
-                    "`Hello, This Is` **🇮🇳Phantom🇮🇳 Security Service.**\n"
-                    "**I Am Made By A Pro, I Found Ur Way Through "
-                    f"{DEFAULTUSER}'s inbox**.\n\n"
-                    "`🔶I Am :` **☣HOT🔥**\n\n"
-                    "**This Is Regarded As Illegal And A Crime😬**\n\n"
-                    "** So Send `/start` To Start A Valid Conversation. ")
+USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](t.me/giveawayswrld)\n\n"
+                    "`Hello, this is an automated message`\n"
+                    "**You wanna talk to my master?, Leave your Reason and 69$ and hopefully you may get a reply from "
+                    f"{DEFAULTUSER} (◠‿◕) **.\n\n"
+                    "**`⚠️Till then Have Patience ⚠️ `**\n\n"
+                    "**Don't Spam My Master's inbox or else you 🔥lame ass🔥 will be blocked**\n\n"
+                    "** Send `/start` and let me know why you are here ")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
