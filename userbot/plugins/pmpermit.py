@@ -14,16 +14,19 @@ PREV_REPLY_MESSAGE = {}
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 USER_BOT_WARN_ZERO = "`You were spamming my peru master's inbox, henceforth your retarded lame ass has been blocked by my master's userbot.` "
 USER_BOT_NO_WARN = ("[──▄█▀█▄─────────██ \n▄████████▄───▄▀█▄▄▄▄ \n██▀▼▼▼▼▼─▄▀──█▄▄ \n█████▄▲▲▲─▄▄▄▀───▀▄ \n██████▀▀▀▀─▀────────▀▀](t.me/giveawayswrld)\n\n"
-                    "`Hello, this is an automated message`\n"
+                    "`Hello, this is an automated message`\n"       
                     "**You wanna talk to my master?, Leave your Reason and 69$ and hopefully you may get a reply from "
                     f"{DEFAULTUSER} (◠‿◕) **.\n\n"
+                    "◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n"
                     "**`⚠️Till then Have Patience ⚠️ `**\n\n"
-                    "**Don't Spam My Master's inbox or else you 🔥lame ass🔥 will be blocked**\n\n"
+                    "`Don't Spam My Master's inbox or else you 🔥lame ass🔥 will be blocked`\n\n"
+                    "**If you came here to beg for free accounts, Get the fuck out of here**\n"
+                    "◆ ▬▬▬▬▬▬ ❴✪❵ ▬▬▬▬▬▬ ◆\n"
                     "** Send `/start` and let me know why you are here ")
 
 
 if Var.PRIVATE_GROUP_ID is not None:
-    @command(pattern="^.approve ?(.*)")
+    @command(pattern="^.pm ?(.*)")
     async def approve_p_m(event):
         if event.fwd_from:
            return
@@ -39,7 +42,7 @@ if Var.PRIVATE_GROUP_ID is not None:
                     await PREV_REPLY_MESSAGE[chat.id].delete()
                     del PREV_REPLY_MESSAGE[chat.id]
                 pmpermit_sql.approve(chat.id, reason)
-                await event.edit("Approved to pm [{}](tg://user?id={})".format(firstname, chat.id))
+                await event.edit("Approved [{}](tg://user?id={}) to pm!🔥".format(firstname, chat.id))
                 await asyncio.sleep(3)
                 await event.delete()
 
