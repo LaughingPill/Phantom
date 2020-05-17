@@ -53,8 +53,8 @@ async def _(event):
     #packname = f"Sticker World Of LaughingPill"
     #packshortname = f"IndianBot_{userid}_ns"  # format: Uni_Borg_userid
     if userid == 981700948:
-        packname = f"LaughingPillkeStickers"
-        packshortname = "Sticker World of LaughingPill"
+        packname = f"Sticker World Of LaughingPill"
+        packshortname = "Lpstickerwrld"
     else:
         packname = f"{user.first_name}'s IndianBot Vol.{pack}"
         packshortname = f"IndianBot_{userid}_kang"
