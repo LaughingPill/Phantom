@@ -197,7 +197,7 @@ EMOJIS = [
 INSULT_STRINGS = [
      "`Owww ... Such a stupid idiot.`",
     "`Don't drink and type.`",
-    "`Command not found. Just like your brain.`",
+    "`Saale methai ki dukan me le jaunga 200 me bikk jayega`",
     "`Bot rule 420 section 69 prevents me from replying to stupid nubfuks like you.`",
     "`Sorry, we do not sell brains.`",
     "`Believe me you are not normal.`",
